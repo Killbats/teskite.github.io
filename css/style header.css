@@ -1,0 +1,29 @@
+
+
+/* SCROLL BAWAH H */
+  div.scrollm {
+    display:flex;
+    background-color:#75777a; 
+    overflow-x:auto;
+    justify-content: center;
+  }
+  
+  div.scrollm::-webkit-scrollbar{
+    display:none;
+  }
+  
+  div.scrollm a{
+    text-decoration: none;
+    text-align: center;
+    padding : 14px;
+    color:white;
+  }
+  
+  div.scrollm a:hover{
+    color:orange;
+
+  }
+
+  .bcgclr{
+    background-color:#75777a; 
+  }

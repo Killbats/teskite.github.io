@@ -1,0 +1,71 @@
+body{ 
+    background-color:#4f5968;
+    overflow-x:hidden;
+}
+
+/* ul.scrolmenu {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    width: 100%;
+    overflow-x: auto;
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+  }
+
+ul.scrolmenu::-webkit-scrollbar{
+    display:none;
+}
+  
+  ul.scrolmenu li {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    
+  } */
+
+.card{
+    margin: 5px 25px;
+    width: 12rem; 
+}
+
+.card-text{
+    text-align: justify;
+}
+
+p{
+    text-align:justify;
+}
+
+    .swiper-container {
+      width: 100%;
+      height: 250px;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      width: 100%;
+    }
+
+  /* .carda{
+    display : flex;
+    overflow-x: scroll;
+  } */
+
+
+
+}
