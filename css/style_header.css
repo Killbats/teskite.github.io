@@ -13,6 +13,10 @@
   }
   
   div.scrollm a{
+    display:-ms-flexbox;
+    display:flex;
+    -ms-flex-wrap:nowrap;
+    flex-wrap: nowrap;
     text-decoration: none;
     text-align: center;
     padding : 14px;
@@ -21,9 +25,9 @@
   
   div.scrollm a:hover{
     color:orange;
-
   }
 
   .bcgclr{
     background-color:#75777a; 
   }
+
