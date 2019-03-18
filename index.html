@@ -74,7 +74,7 @@
       
         
             <!-- Swiper  -->
-  <div id="swiper1" class="swiper-container">
+  <div id="swiper1" class="swiper-container s">
     <div class="swiper-wrapper">
       <div class="swiper-slide">Slide 1</div>
       <div class="swiper-slide">Slide 2</div>
@@ -91,53 +91,43 @@
     <div class="swiper-pagination"></div>
   </div>
 
-  <section class="carda" >
-  <div class="card" >
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-      <div class="card" >
-            <img class="card-img-top" src="..." alt="Card image cap">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
+
+      <section class="swiper-container s1" >
+      <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="529396798368907289.png" alt="...">
           </div>
-          <div class="card" >
-                <a href="#">
-                <img class="card-img-top" src="..." alt="Card image cap">
-                </a>
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-              <div class="card" >
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                  </div>
-                  <div class="card" >
-                        <img class="card-img-top" src="..." alt="Card image cap">
-                        <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                      <div class="card" >
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            </div>
-                          </div>
-                          <div class="card" >
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                              </div>                        
-    </section>
+          
+          <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
+          <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
+          <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
+          <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
+          <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
+          <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
+          <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
+          <div class="swiper-slide">Slide 9</div>
+          <div class="swiper-slide">Slide 10</div>
+          </div>                       
+        </section>
+     
+
+        <br>
   
+        <section class="swiper-container s2" >
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="529396798368907289.png" alt="...">
+              
+             </div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div>
+            </div>                       
+          </section>
 
            
 
@@ -150,7 +140,7 @@
                 
 
 <script>
-    var swiper = new Swiper('.swiper-container', {
+     var swiper = new Swiper('.s', {
       slidesPerView: '2',
       
       spaceBetween: 30,
@@ -160,15 +150,18 @@
       },
     });
 
-    var swiper = new Swiper('.swiper-container1', {
-      slidesPerView: '2',
-      
+    var swiper1 = new Swiper('.s1', {
+      slidesPerView: '3',
       spaceBetween: 30,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
+      
+    
     });
+    
+    var swiper2 = new Swiper('.s2', {
+      slidesPerView: '3',
+      spaceBetween: 30,
+      
+      });
 
     // function openSlideMenu(){
     //     document.getElementById('sideM').style.width='250px';
@@ -193,152 +186,3 @@
 
 </html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- NANTI DLU   -->
-                   
-            <!-- <ul class="scrolmenu">
-                        <li class="card" >
-                            <a>
-                                <img src="529396798368907289.png">
-                            </a>
-                        </li>
-                        <li class="card" >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a></li>
-                        <li class="card" >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a></li>
-                        
-                        <li class="card"  >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a></li>
-                        <li class="card"  >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a></li>
-                        <li class="card"  >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a></li>
-                        
-                        <li class="card"  >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a></li>
-                        <li class="card"  >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a></li>
-                        <li class="card"  ></li>
-                        <a>
-                                <img src="512450597795004417.png">
-                            </a>
-                        
-                        <li class="card"  >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a>
-                        </li>
-                        <li class="card"  >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a>
-                        </li>
-                        <li class="card"  >
-                                <a>
-                                        <img src="512450597795004417.png">
-                                    </a>
-                        </li>
-                </ul>
-
-                <br>
-
-                <p1 style="padding: 0 15px;">Most Popular</p1>
-                <ul class="scrolmenu">
-                        <li class="card"  ><a>
-                                <img src="512450597795004417.png">
-                            </a></li>
-                        <li class="card"  ><a>
-                                <img src="512450597795004417.png">
-                            </a></li>
-                        <li class="card"  ><a>
-                                <img src="512450597795004417.png">
-                            </a></li>
-                        
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                </ul>
-                
-                <br>
-
-                <p1 style="padding: 0 15px;">Most Popular</p1>
-                <ul class="scrolmenu">
-                        <li class="card"  ><a>
-                                <img src="512450597795004417.png">
-                            </a></li>
-                        <li class="card"  ><a>
-                                <img src="512450597795004417.png">
-                            </a></li>
-                        <li class="card"  ><a>
-                                <img src="512450597795004417.png">
-                            </a></li>
-                        
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                        <li class="card"  ></li>
-                </ul> -->
