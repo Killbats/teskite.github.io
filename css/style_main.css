@@ -36,7 +36,6 @@ ul.scrolmenu::-webkit-scrollbar{
 
     .swiper-container {
       width: 100%;
-      height: 250px;
     }
 
   .swiper-slide {
@@ -92,14 +91,14 @@ ul.scrolmenu::-webkit-scrollbar{
 
 @media (max-width:480px) {
   .s1{
-   height: 175px;
+   
     width: 100%;
   }
   }
 
   @media (max-width:480px) {
     .s2{
-      height: 175px;
+      
       width: 100%;
     }
     }
