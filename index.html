@@ -4,10 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=480px">
+    <meta name="viewport" content="480px">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style header.css">
-    <link rel="stylesheet" href="css/style main.css">
+    <link rel="stylesheet" href="css/style_header.css">
+    <link rel="stylesheet" href="css/style_main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
     
@@ -18,35 +18,39 @@
     </head>
     <body>
      
-      <div class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             <span class="navbar-toggler-icon"></span>
           </button>
-        </div>
 
-        <nav>
-          <a class="navbar-brand" href="#">Navbar</a>
-        
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-          </div>
+    
+          <a class="navbar-brand brah"  href="#">Navbar</a>
         </nav>
 
-        <div class="scrollm d-flex justify-content-between">
+<nav style="background-color:black;">
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+    </ul>
+  </div>
+</nav>
+
+<nav>
+<form class="form-group has-search">
+   <span class="fa fa-search form-control-feedback"></span>
+    <input type="text" class="form-control" placeholder="Search">
+</form>
+</nav>
+
+       
+  <div class="scrollm d-flex justify-content-between">
             <a href="#">test</a>
             <a href="#">test</a>
             <a href="#">test</a>
@@ -67,14 +71,14 @@
             <a href="#">test</a>
             <a href="#">test</a>
         </div>
+      
         
             <!-- Swiper  -->
-  <div style="background:inherit;" class="jumbotron swiper-container s">
+  <div id="swiper1" class="swiper-container s">
     <div class="swiper-wrapper">
-      <div class="swiper-slide"><img src="529396798368907289.png" alt="...">
-      </div>
+      <div class="swiper-slide">Slide 1</div>
       <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
+      <div class="swiper-slide">Slide 3</div>
       <div class="swiper-slide">Slide 4</div>
       <div class="swiper-slide">Slide 5</div>
       <div class="swiper-slide">Slide 6</div>
@@ -87,17 +91,20 @@
     <div class="swiper-pagination"></div>
   </div>
 
+<br>
 
-  <br>
-  
       <section class="swiper-container s1" >
       <div class="swiper-wrapper">
-          <div class="swiper-slide"> <a href="">
-          <img  src="WorryEggplant.gif" alt="..." class="promote" >
-          <div>
-            <p1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam aut id voluptatum eius nihil tempora, hic officiis tenetur sequi ducimus dignissimos corporis laborum optio nesciunt alias culpa. Quaerat, voluptatem inventore.</p1>
+          <div class="swiper-slide">
+              <a href="">
+              <img src="WorryEggplant.gif" alt="..." class="promote">
+            <div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Aperiam aut id voluptatum eius nihil tempora, hic officiis 
+                  tenetur sequi ducimus dignissimos corporis laborum optio 
+                  nesciunt alias culpa. Quaerat, voluptatem inventore.</p>
             </div>
-          </a>
+              </a>
           </div>
           <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
           <div class="swiper-slide"><img src="529396798368907289.png" alt="..."></div>
@@ -130,7 +137,6 @@
             <div class="swiper-slide">Slide 10</div>
             </div>                       
           </section>
-       
 
            
 
@@ -143,7 +149,7 @@
                 
 
 <script>
-    var swiper = new Swiper('.s', {
+     var swiper = new Swiper('.s', {
       slidesPerView: '2',
       
       spaceBetween: 30,
@@ -152,7 +158,6 @@
         clickable: true,
       },
     });
-
     var swiper1 = new Swiper('.s1', {
       slidesPerView: '3',
       spaceBetween: 30,
@@ -165,8 +170,6 @@
       spaceBetween: 30,
       
       });
-
-
     // function openSlideMenu(){
     //     document.getElementById('sideM').style.width='250px';
     // }
@@ -178,7 +181,6 @@
       document.getElementById('side-menu').style.width = '250px';
       
     }
-
     function closeSlideMenu(){
       document.getElementById('side-menu').style.width = '0';
       document.getElementById('main').style.marginLeft = '0';
@@ -189,4 +191,3 @@
     
 
 </html>
-
