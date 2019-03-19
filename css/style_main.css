@@ -61,17 +61,34 @@ p{
       width: 100%;
     }
 
-  /* .carda{
-    display : flex;
-    overflow-x: scroll;
-  } */
+ .promote{
+      position:relative;
+      margin-block-end: auto;
+    }
+
 
 .brah{
   margin: 0 auto;
 }
 
+
 @media (max-width:480px) {
-.swiper-container{
+.s{
   height: 175px;
   width: 100%;
 }
+}
+
+@media (max-width:480px) {
+  .s1{
+   height: 100%;
+    width: 100%;
+  }
+  }
+
+  @media (max-width:480px) {
+    .s2{
+      height: 175px;
+      width: 100%;
+    }
+    }
