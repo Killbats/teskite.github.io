@@ -71,9 +71,12 @@ ul.scrolmenu::-webkit-scrollbar{
       border-radius: 10px;
     }
 
-    .swiperste{
+     .swiperste{
       margin-right: 30px;
       margin-left:30px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
     }
     /* .promote{
       margin-block-end: auto;
@@ -133,6 +136,25 @@ ul.scrolmenu::-webkit-scrollbar{
       -webkit-overflow-scrolling: touch;
       
     }
+
+  .swiperstek{
+      width:100%;
+      margin-right: 30px;
+       -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+    }
+
+ .imgse{
+      width: 360px;
+      height: 129px;
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+    }
+
+
+
 .brah{
   margin: 0 auto;
 }
