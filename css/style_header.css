@@ -3,7 +3,7 @@
 /* SCROLL BAWAH H */
   div.scrollm {
     display:flex;
-    background-color:#75777a; 
+    background-color:#3d3d3d;
     overflow-x:auto;
     justify-content: center;
   }
@@ -28,6 +28,6 @@
   }
 
   .bcgclr{
-    background-color:#75777a; 
+    background-color:#3d3d3d; 
   }
 
