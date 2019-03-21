@@ -3,10 +3,6 @@ body{
     overflow-x:hidden;
 }
 
-p1{
-    padding-left:10px;
-}
-
   .swiper-slide {
       width: 100%;
       max-width: 488px; 
