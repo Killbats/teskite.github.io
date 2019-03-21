@@ -106,21 +106,6 @@ body{
       height: 100%;
     }
     
-.imgse{
-      width: 100%;
-      height: 100%;
-      -webkit-border-top-right-radius: 15px;
-      -webkit-border-top-left-radius: 15px;
-      -moz-border-radius-topright: 15px;
-      -moz-border-radius-topleft: 15px;
-      border-top-right-radius: 10px ;
-      border-top-left-radius: 10px;
-    }
-
- .imgsize{
-      width: 100%;
-      height: 100%;
-    }
 
     .scrolling-scroller {
       display: flex;
@@ -147,9 +132,8 @@ body{
 }
 
 
-@media (max-width:480px) {
+@media (max-width:720px) {
 .s{
-  height: 175px;
   width: 100%;
 }
 }
