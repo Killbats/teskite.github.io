@@ -124,6 +124,7 @@ p1{
       .card {
         flex: 0 0 auto;
         border: 0;
+        background-color:#3d3d3;
       }
 
   .scrolling-scroller {
