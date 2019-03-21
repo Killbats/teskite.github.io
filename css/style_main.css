@@ -53,25 +53,18 @@ p1{
     } */
 
     .promotetxt{
-      text-align: center;
+      padding-left:10px
       background-color:#3d3d3d;
-      height:188px;
-      color:white;
-      content: center;   
+      height:25px;
+      color:white;  
     }
 
     .promotetxt1{
-      text-align: center;
+      padding-left: 10px;
       background-color:#3d3d3d;
-      height:322px;
+      height:25px;
       color:white;
-      content: center; 
-      -webkit-border-bottom-right-radius: 15px;
-      -webkit-border-bottom-left-radius: 15px;
-      -moz-border-radius-bottomright: 15px;
-      -moz-border-radius-bottomleft: 15px;
-      border-bottom-right-radius: 10px;
-      border-bottom-left-radius: 10px;
+    
     }
 
     .smalltext{
